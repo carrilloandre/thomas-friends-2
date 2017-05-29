@@ -1,0 +1,25 @@
+{
+  "name": "Thomas & Friends Extension",
+
+  "version": "1.41",
+
+  "manifest_version": 2,
+
+  "description": "All images will be replaced with Thomas & Friends photos.",
+
+  "content_scripts": [
+
+    {
+
+      "matches": ["http://*/*", "https://*/*"],
+
+      "js": ["jquery-1.8.0.min.js","background.js"]
+
+    }
+
+  ],
+    "browser_action": {
+    "default_icon": "icon.png"
+  }
+
+}

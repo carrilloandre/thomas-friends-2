@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   checkPageButton.addEventListener('click', function() {
 
-      alert("button");
+      alert("popup-button");
 
-      $(location).attr('href', 'http://google.com');
+      $(location).attr('href', 'https://www.youtube.com');
 
     });
 

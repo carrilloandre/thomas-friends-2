@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       alert("popup-button");
 
-      $(location).attr('href', 'https://www.youtube.com');
+      $(location).attr('href', 'https://www.youtube.com/watch?v=b8HO6hba9ZE');
 
     });
 
